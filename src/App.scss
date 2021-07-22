@@ -1,0 +1,134 @@
+// Fonts
+@font-face {
+  font-family: "display-text";
+  src: url("./assets/fonts/sf/SF-Pro-Text-Regular.otf");
+}
+@font-face {
+  font-family: "display-text-light";
+  src: url("./assets/fonts/sf/SF-Pro-Text-Light.otf");
+}
+@font-face {
+  font-family: "display-text-extralight";
+  src: url("./assets/fonts/sf/SF-Pro-Text-Thin.otf");
+}
+@font-face {
+  font-family: "display-text-semibold";
+  src: url("./assets/fonts/sf/SF-Pro-Text-Semibold.otf");
+}
+@font-face {
+  font-family: "display-text-bold";
+  src: url("./assets/fonts/sf/SF-Pro-Text-Bold.otf");
+}
+@font-face {
+  font-family: "display-text-medium";
+  src: url("./assets/fonts/sf/SF-Pro-Text-Medium.otf");
+}
+
+@font-face {
+  font-family: "display-text-medium-italic";
+  src: url("./assets/fonts/sf/SF-Pro-Text-MediumItalic.otf");
+}
+@font-face {
+  font-family: "display-text-code";
+  src: url("./assets/fonts/sf/SF-Mono-Regular.otf");
+}
+@font-face {
+  font-family: "display-text-code-light";
+  src: url("./assets/fonts/sf/SF-Mono-Light.otf");
+}
+
+// Text
+h1 {
+  letter-spacing: normal;
+  font-family: "display-text-medium", "Helvetica Neue", "Helvetica", "Arial",
+    "sans-serif";
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1.2;
+}
+
+h2 {
+  letter-spacing: normal;
+  font-family: "display-text-medium", "Helvetica Neue", "Helvetica", "Arial",
+    "sans-serif";
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+  text-align: left;
+  padding: 0 0;
+  margin: 0 0;
+  line-height: 1;
+}
+
+h4 {
+  letter-spacing: normal;
+  font-family: "display-text", "Helvetica Neue", "Helvetica", "Arial",
+    "sans-serif";
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+  text-align: left;
+  padding: 0 0;
+  margin: 0 0;
+  line-height: 1;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-family: "display-text", "Helvetica Neue", "Helvetica", "Arial",
+    "sans-serif";
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+  text-align: left;
+  padding: 0 0;
+  margin: 0 0;
+  line-height: normal;
+}
+a {
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-family: "display-text-light", "Helvetica Neue", "Helvetica", "Arial",
+    "sans-serif";
+  color: #adbac7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+  text-align: left;
+  padding: 0 0;
+  margin: 0 0;
+  line-height: normal;
+  text-decoration: none;
+}
+a:hover {
+  color: #539bf5;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+small {
+  letter-spacing: normal;
+  font-family: "display-text", "SF Pro Display", "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
+  color: #999999;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+  text-align: left;
+  padding: 0, 0;
+  margin: 0, 0;
+  line-height: 1;
+  text-decoration: none;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,186 @@
+// App Navbar
+.app-nav {
+  height: 50px;
+  background: #1e2329;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding-left: 100px;
+  border-bottom: 1px solid #444c56;
+  z-index: 1000;
+  align-items: center;
+}
+
+.app-nav .nav-tabs {
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.app-nav .nav-actions {
+  flex-basis: 20%;
+  display: flex;
+  height: 100%;
+}
+
+.app-nav .nav-action-1,
+.app-nav .nav-action-2,
+.app-nav .nav-action-3 {
+  width: 80px;
+}
+.app-nav .nav-tabs a {
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-family: "display-text-medium";
+  cursor: pointer;
+  text-decoration: none;
+}
+
+// Options
+
+.options-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  cursor: pointer;
+}
+
+.options-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.options-container a {
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-family: "display-text-medium";
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.options-container:hover,
+.options-container:hover a {
+  color: #05aa82;
+}
+
+// Switcher
+
+.nav-switcher {
+  display: none;
+}
+
+.slider-menu {
+  display: none;
+}
+
+@media (min-width: 0px) and (max-width: 599px) {
+  .app-nav {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .app-nav .nav-actions {
+    display: none;
+  }
+  .nav-switcher {
+    display: block;
+  }
+
+  // Switcher
+
+  .slider-menu {
+    display: block;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1e2329;
+  }
+
+  .slider-menu-container {
+    width: 85%;
+    margin: auto;
+
+    padding-top: 50px;
+  }
+
+  .slider-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+    cursor: pointer;
+  }
+
+  .slider-item a {
+    color: #adbac7;
+    font-family: "display-text-medium";
+    font-size: 1.2em;
+    cursor: pointer;
+    line-height: 1.2;
+  }
+
+  .slider-item a:hover {
+    color: #539bf5;
+  }
+}
+
+// Small - Medium devices
+@media (min-width: 600px) and (max-width: 634px) {
+  .app-nav {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .app-nav .nav-actions {
+    display: none;
+  }
+  .nav-switcher {
+    display: block;
+  }
+
+  // Switcher
+
+  .slider-menu {
+    display: block;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1e2329;
+  }
+
+  .slider-menu-container {
+    width: 85%;
+    margin: auto;
+
+    padding-top: 50px;
+  }
+
+  .slider-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+    cursor: pointer;
+  }
+
+  .slider-item a {
+    color: #adbac7;
+    font-family: "display-text-medium";
+    font-size: 1.2em;
+    cursor: pointer;
+    line-height: 1.2;
+  }
+
+  .slider-item a:hover {
+    color: #539bf5;
+  }
+}

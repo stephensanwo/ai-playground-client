@@ -1,0 +1,50 @@
+.landing-container {
+  width: 100vw;
+  height: 95vh;
+  background: url("../../assets//images/svg/background.svg") repeat center;
+}
+
+.landing-content {
+  height: 75%;
+  width: 85%;
+  margin: auto;
+  padding-top: 10rem;
+}
+
+.landing-content h1 {
+  font-size: 6rem;
+  font-family: "display-text-medium";
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #05aa82, #1c8df0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-bottom: 2rem;
+}
+
+.landing-content h4 {
+  font-size: 1.2rem;
+  font-family: "display-text-medium";
+  color: #000000;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  padding-left: 0.35em;
+}
+
+.gallium-badge {
+  margin-left: 0.5em;
+  margin-bottom: 2rem;
+}
+
+.logo-container {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4rem;
+}
+
+.button-container {
+  margin-top: 2.5rem;
+}
