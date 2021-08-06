@@ -1,37 +1,40 @@
 // App Navbar
 .app-nav {
   height: 50px;
-  background: #1e2329;
+  background: transparent;
   display: flex;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  padding-left: 100px;
-  border-bottom: 1px solid #444c56;
+  padding-left: 200px;
+  border-bottom: 1px solid #e0e0e0;
   z-index: 1000;
   align-items: center;
 }
 
 .app-nav .nav-tabs {
-  min-width: 200px;
+  min-width: 150px;
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 100%;
 }
 
 .app-nav .nav-actions {
-  flex-basis: 20%;
+  flex-basis: 0%;
   display: flex;
   height: 100%;
 }
 
 .app-nav .nav-action-1,
 .app-nav .nav-action-2,
-.app-nav .nav-action-3 {
-  width: 80px;
+.app-nav .nav-action-3,
+.app-nav .nav-action-4,
+.app-nav .nav-action-5 {
+  width: 100px;
 }
 .app-nav .nav-tabs a {
-  color: #ffffff;
+  color: #000000;
   font-size: 0.9rem;
   font-family: "display-text-medium";
   cursor: pointer;
@@ -58,7 +61,7 @@
 }
 
 .options-container a {
-  color: #ffffff;
+  color: #000000;
   font-size: 0.7rem;
   font-family: "display-text-medium";
   cursor: pointer;
@@ -67,7 +70,7 @@
 
 .options-container:hover,
 .options-container:hover a {
-  color: #05aa82;
+  color: #039874;
 }
 
 // Switcher

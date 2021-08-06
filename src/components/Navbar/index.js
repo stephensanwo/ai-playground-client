@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import Options from "./Options";
 import { motion, AnimatePresence } from "framer-motion";
 import "./style.scss";
+import galliumlogo from "../../assets/images/svg/gallium-logo.svg";
 
 const Navbar = ({ isNavOpen, setIsNavOpen }) => {
   const handleClick = () => {
@@ -22,20 +23,33 @@ const Navbar = ({ isNavOpen, setIsNavOpen }) => {
     <Fragment>
       <div className="app-nav">
         <div className="nav-tabs">
-          <Link to={"/"}>
-            <a>Gallium</a>
+          <Link
+            to={"/"}
+            style={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "left",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src={galliumlogo}
+              width="32px"
+              style={{ marginRight: "1rem" }}
+            />
+            <a style={{ color: "#039874" }}>Gallium</a>
           </Link>
         </div>
 
         <div className="nav-actions">
           <div className="nav-action-1">
-            <Options data={{ name: "Home", link: "/" }} />
+            <Options data={{ name: "Launch", link: "/" }} />
           </div>
           <div className="nav-action-2">
-            <Options data={{ name: "Developer", link: "/blog" }} />
+            <Options data={{ name: "Github", link: "/" }} />
           </div>
           <div className="nav-action-3">
-            <Options data={{ name: "Github", link: "/apps" }} />
+            <Options data={{ name: "Developer", link: "/" }} />
           </div>
         </div>
         <div className="nav-switcher">

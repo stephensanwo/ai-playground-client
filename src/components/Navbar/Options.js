@@ -8,8 +8,8 @@ const Options = ({ data }) => {
     <Link to={data.link} style={{ textDecoration: "none" }}>
       <motion.div
         className="options-container"
-        whileHover={{ borderBottom: "2px solid #05aa82" }}
-        transition={{ ease: "easeIn", duration: 0.2 }}
+        whileHover={{ borderBottom: "2px solid #039874" }}
+        transition={{ ease: "easeIn", duration: 0.05 }}
       >
         <div className="options-text">
           <a>{data.name}</a>

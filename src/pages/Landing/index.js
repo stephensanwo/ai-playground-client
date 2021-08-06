@@ -5,6 +5,7 @@ import ludwig from "../../assets/images/svg/ludwig.svg";
 import prophet from "../../assets/images/svg/prophet.svg";
 import Badges from "../../components/Badges";
 import Button from "../../components/Button";
+import gallium_logo from "../../assets/images/svg/gallium-logo.svg";
 
 const Landing = () => {
   return (
@@ -13,11 +14,16 @@ const Landing = () => {
         {/* <div className="gallium-badge">
           <Badges badge_name="Gallium" />
         </div> */}
-        <h1>Project Galluim</h1>
-        <h4>
+        <div style={{ display: "flex" }}>
+          <img src={gallium_logo} width="10%" />
+          <h1>Gallium</h1>
+        </div>
+
+        <h1>
           No Code Platform for Open Source <br />
           Artificial Intelligence and Machine Learning Models
-        </h4>
+        </h1>
+        <h4></h4>
         <div className="button-container">
           <Button button_title={"Launch Galluim"} />
         </div>
