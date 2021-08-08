@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.scss";
 import Navbar from "./components/Navbar";
 import Landing from "./pages/Landing";
+import Nav from "./pages/Nav";
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Landing />
+        </Route>
+        <Route exact path="/navigation">
+          <Nav />
         </Route>
       </Switch>
     </Router>

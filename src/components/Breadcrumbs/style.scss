@@ -1,0 +1,11 @@
+.breadcrumbs-container {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.breadcrumbs-container a {
+  font-size: 0.9em;
+}

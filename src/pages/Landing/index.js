@@ -26,7 +26,7 @@ const Landing = () => {
               powerful open source AI models without learning to code.
             </p>
             <div className="landing-navs">
-              <Button button_title="Launch Gallium" />
+              <Button button_title="Launch Gallium" button_link="/navigation" />
               <a>Documentation</a>
             </div>
             <div className="logo-container">
