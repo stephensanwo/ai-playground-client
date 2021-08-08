@@ -9,3 +9,29 @@
   margin: auto;
   padding-top: 3rem;
 }
+
+.nav-header {
+  margin-top: 2rem;
+}
+
+.nav-categories {
+  margin-top: 5rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.nav-category {
+  border: 1px solid #e0e0e0;
+  width: 500px;
+  height: 120px;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.nav-category h4 {
+  margin-bottom: 1rem;
+}

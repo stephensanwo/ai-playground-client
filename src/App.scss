@@ -40,7 +40,7 @@
 // Text
 h1 {
   letter-spacing: normal;
-  font-family: "display-text-medium", "Helvetica Neue", "Helvetica", "Arial",
+  font-family: "display-text", "Helvetica Neue", "Helvetica", "Arial",
     "sans-serif";
   color: #000000;
   -webkit-font-smoothing: antialiased;
@@ -53,9 +53,9 @@ h1 {
 
 h2 {
   letter-spacing: normal;
-  font-family: "display-text-medium", "Helvetica Neue", "Helvetica", "Arial",
+  font-family: "display-text", "Helvetica Neue", "Helvetica", "Arial",
     "sans-serif";
-  color: black;
+  color: #039874;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: auto;
   text-align: left;
@@ -66,7 +66,7 @@ h2 {
 
 h4 {
   letter-spacing: normal;
-  font-family: "display-text-bold", "Helvetica Neue", "Helvetica", "Arial",
+  font-family: "display-text-semibold", "Helvetica Neue", "Helvetica", "Arial",
     "sans-serif";
   color: black;
   -webkit-font-smoothing: antialiased;
@@ -79,7 +79,7 @@ h4 {
 }
 
 p {
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: 400;
   letter-spacing: normal;
   font-family: "display-text", "Helvetica Neue", "Helvetica", "Arial",
@@ -90,10 +90,9 @@ p {
   text-align: left;
   padding: 0 0;
   margin: 0 0;
-  line-height: 1.5;
 }
 a {
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: 400;
   letter-spacing: normal;
   font-family: "display-text", "Helvetica Neue", "Helvetica", "Arial",
@@ -108,7 +107,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #539bf5;
+  color: #039874;
   text-decoration: underline;
   cursor: pointer;
 }
