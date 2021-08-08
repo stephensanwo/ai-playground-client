@@ -22,46 +22,48 @@ const Navbar = ({ isNavOpen, setIsNavOpen }) => {
   return (
     <Fragment>
       <div className="app-nav">
-        <div className="nav-tabs">
-          <Link
-            to={"/"}
-            style={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "left",
-              alignItems: "center",
-            }}
-          >
-            <img
-              src={galliumlogo}
-              width="32px"
-              style={{ marginRight: "1rem" }}
-            />
-            <a style={{ color: "#039874" }}>Gallium</a>
-          </Link>
-        </div>
+        <div className="app-nav-container">
+          <div className="nav-tabs">
+            <Link
+              to={"/"}
+              style={{
+                width: "100%",
+                display: "flex",
+                justifyContent: "left",
+                alignItems: "center",
+              }}
+            >
+              <img
+                src={galliumlogo}
+                width="32px"
+                style={{ marginRight: "1rem" }}
+              />
+              <a style={{ color: "#039874" }}>Gallium</a>
+            </Link>
+          </div>
 
-        <div className="nav-actions">
-          <div className="nav-action-1">
-            <Options data={{ name: "Launch", link: "/" }} />
+          <div className="nav-actions">
+            <div className="nav-action-1">
+              <Options data={{ name: "Launch", link: "/" }} />
+            </div>
+            <div className="nav-action-2">
+              <Options data={{ name: "Github", link: "/" }} />
+            </div>
+            <div className="nav-action-3">
+              <Options data={{ name: "Developer", link: "/" }} />
+            </div>
           </div>
-          <div className="nav-action-2">
-            <Options data={{ name: "Github", link: "/" }} />
+          <div className="nav-switcher">
+            <motion.div onClick={handleClick}>
+              {isNavOpen === "open" ? (
+                <Close24 style={{ color: "#ffffff" }} />
+              ) : isNavOpen === "closed" ? (
+                <Menu24 style={{ color: "#ffffff" }} />
+              ) : (
+                <Menu24 style={{ color: "#ffffff" }} />
+              )}
+            </motion.div>
           </div>
-          <div className="nav-action-3">
-            <Options data={{ name: "Developer", link: "/" }} />
-          </div>
-        </div>
-        <div className="nav-switcher">
-          <motion.div onClick={handleClick}>
-            {isNavOpen === "open" ? (
-              <Close24 style={{ color: "#ffffff" }} />
-            ) : isNavOpen === "closed" ? (
-              <Menu24 style={{ color: "#ffffff" }} />
-            ) : (
-              <Menu24 style={{ color: "#ffffff" }} />
-            )}
-          </motion.div>
         </div>
       </div>
       <AnimatePresence>

@@ -1,22 +1,25 @@
 .button {
-  width: 200px;
-  height: 50px;
-  background-color: #1e2329;
+  width: 140px;
+  height: 45px;
+  background-color: #039874;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #08b78c;
 }
 
 .button h4 {
-  font-size: 1rem;
+  font-size: 1em;
   font-family: "display-text";
   color: #ffffff;
   margin-bottom: 0rem;
   line-height: 1.5;
   padding-left: 0em;
+  width: 100%;
+  text-align: center;
 }
-
-// {
-//     color: #455869
-// }

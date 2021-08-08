@@ -66,7 +66,7 @@ h2 {
 
 h4 {
   letter-spacing: normal;
-  font-family: "display-text", "Helvetica Neue", "Helvetica", "Arial",
+  font-family: "display-text-bold", "Helvetica Neue", "Helvetica", "Arial",
     "sans-serif";
   color: black;
   -webkit-font-smoothing: antialiased;
@@ -75,6 +75,7 @@ h4 {
   padding: 0 0;
   margin: 0 0;
   line-height: 1;
+  font-size: 1rem;
 }
 
 p {
@@ -89,15 +90,15 @@ p {
   text-align: left;
   padding: 0 0;
   margin: 0 0;
-  line-height: normal;
+  line-height: 1.5;
 }
 a {
   font-size: 1em;
   font-weight: 400;
   letter-spacing: normal;
-  font-family: "display-text-light", "Helvetica Neue", "Helvetica", "Arial",
+  font-family: "display-text", "Helvetica Neue", "Helvetica", "Arial",
     "sans-serif";
-  color: #adbac7;
+  color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: auto;
   text-align: left;

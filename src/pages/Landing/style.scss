@@ -1,33 +1,42 @@
 .landing-container {
   width: 100vw;
-  height: 95vh;
-  // background: url("../../assets//images/svg/background.svg") repeat center;
+  min-height: 100vh;
 }
 
 .landing-content {
   height: 75%;
-  width: 75%;
+  width: 60%;
   margin: auto;
   padding-top: 10rem;
 }
 
-.landing-content h1 {
-  font-size: 4rem;
-  font-family: "display-text-medium";
-  -webkit-text-fill-color: transparent;
-  background: linear-gradient(90deg, #39aa82, #1c8df0);
-  -webkit-background-clip: text;
-  background-clip: text;
-  margin-bottom: 2rem;
+.landing-description {
+  display: flex;
+  gap: 10rem;
 }
 
-.landing-content h4 {
-  font-size: 1.2rem;
-  font-family: "display-text-medium";
+.landing-description h1 {
+  font-size: 3rem;
+  font-family: "display-text";
   color: #000000;
   margin-bottom: 1rem;
-  line-height: 1.5;
-  padding-left: 0.35em;
+  line-height: 1;
+}
+
+.landing-navs {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-between;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+.landing-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallium-badge {
@@ -37,14 +46,38 @@
 
 .logo-container {
   display: flex;
-  width: 85%;
+  width: 100%;
   margin: auto;
-  display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 4rem;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .button-container {
   margin-top: 2.5rem;
+}
+
+.landing-categories {
+  margin-top: 15rem;
+  min-height: 100px;
+  display: flex;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+.landing-category {
+  max-width: 300px;
+}
+
+.landing-category h4 {
+  color: #039874;
+}
+
+.category-header {
+  display: flex;
+  gap: 2rem;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 1rem;
 }

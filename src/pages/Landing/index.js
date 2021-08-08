@@ -1,37 +1,90 @@
 import React from "react";
 import "./style.scss";
+import {
+  ChartLineSmooth32,
+  Cognitive32,
+  PhraseSentiment32,
+} from "@carbon/icons-react";
 import openai from "../../assets/images/svg/openai.svg";
 import ludwig from "../../assets/images/svg/ludwig.svg";
 import prophet from "../../assets/images/svg/prophet.svg";
-import Badges from "../../components/Badges";
+import eleutherai from "../../assets/images/svg/eleutherai.svg";
 import Button from "../../components/Button";
-import gallium_logo from "../../assets/images/svg/gallium-logo.svg";
+import screen_image from "../../assets/images/svg/screen-image.svg";
 
 const Landing = () => {
   return (
     <div className="landing-container">
       <div className="landing-content">
-        {/* <div className="gallium-badge">
-          <Badges badge_name="Gallium" />
-        </div> */}
-        <div style={{ display: "flex" }}>
-          <img src={gallium_logo} width="10%" />
-          <h1>Gallium</h1>
+        <div className="landing-description">
+          <div style={{ width: "50%" }}>
+            <h1>No Code Platform for </h1>
+            <h1 style={{ color: "#039874" }}>Open Source AI Models</h1>
+            <p>
+              From predictive analytics to natural language understanding,
+              Non-technical users across several functions can now leverage
+              powerful open source AI models without learning to code.
+            </p>
+            <div className="landing-navs">
+              <Button button_title="Launch Gallium" />
+              <a>Documentation</a>
+            </div>
+            <div className="logo-container">
+              <img src={openai} width="80px" />
+              <img src={ludwig} width="80px" />
+              <img src={prophet} width="80px" />
+              <h4
+                style={{
+                  fontFamily: "display-text-bold",
+                  fontSize: "1rem",
+                }}
+              >
+                GPT-3
+              </h4>
+            </div>
+          </div>
+          <div className="landing-image">
+            <img src={screen_image} width="500px" />
+          </div>
         </div>
+        <div className="landing-categories">
+          <div className="landing-category">
+            <div className="category-header">
+              <ChartLineSmooth32 fill="#039874" />
+              <h4>Forecasting Analytics</h4>
+            </div>
 
-        <h1>
-          No Code Platform for Open Source <br />
-          Artificial Intelligence and Machine Learning Models
-        </h1>
-        <h4></h4>
-        <div className="button-container">
-          <Button button_title={"Launch Galluim"} />
+            <p>
+              From predicting user growth to revenue forecasts, Non-technical
+              users across several functions can now leverage the powerful
+              facebook prophet analytics
+            </p>
+          </div>
+          <div className="landing-category">
+            <div className="category-header">
+              <Cognitive32 fill="#039874" />
+              <h4>Natural Language Processing</h4>
+            </div>
+
+            <p>
+              From predicting user growth to revenue forecasts, Non-technical
+              users across several functions can now leverage the powerful
+              facebook prophet analytics
+            </p>
+          </div>
+          <div className="landing-category">
+            <div className="category-header">
+              <PhraseSentiment32 fill="#039874" />
+              <h4>Sentiment Analytics</h4>
+            </div>
+
+            <p>
+              From predicting user growth to revenue forecasts, Non-technical
+              users across several functions can now leverage the powerful
+              facebook prophet analytics
+            </p>
+          </div>
         </div>
-      </div>
-      <div className="logo-container">
-        <img src={openai} width="150px" />
-        <img src={ludwig} width="150px" />
-        <img src={prophet} width="150px" />
       </div>
     </div>
   );
