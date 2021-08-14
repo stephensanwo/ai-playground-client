@@ -1,0 +1,48 @@
+.forecasting-content {
+  margin-top: 4rem;
+}
+.forecasting-description {
+  width: 600px;
+  margin-right: auto;
+}
+
+.forecasting-description p {
+  margin-bottom: 2rem;
+}
+
+.forecasting-description h4 {
+  margin-bottom: 0.5rem;
+}
+
+.forecasting-link {
+  border: 1px dashed #039874;
+  width: 350px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: "4rem";
+  padding: 10px;
+  border-radius: 10px;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.forecasting-link:hover {
+  background-color: #08b78b0e;
+}
+
+.data-input {
+  margin-top: 4rem;
+}
+
+.data-upload {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.data-upload p {
+  margin: 0;
+}

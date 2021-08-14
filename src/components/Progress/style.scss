@@ -1,0 +1,31 @@
+.progress-container {
+  height: 40px;
+  display: flex;
+  width: 100%;
+}
+
+.progress-indicator {
+  border-top: 2px solid #e0e0e0;
+
+  padding-top: 1em;
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+
+  gap: 1rem;
+}
+
+.progress-indicator p {
+  color: #c6c6c6;
+  margin: 0;
+}
+
+.active-indicator {
+  border-top: 2px solid #3569f8;
+}
+
+.active-indicator p {
+  color: #000000;
+  margin: 0;
+}

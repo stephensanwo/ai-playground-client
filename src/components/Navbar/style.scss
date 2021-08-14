@@ -65,19 +65,6 @@
   justify-content: center;
 }
 
-.options-container a {
-  color: #000000;
-  font-size: 0.9em;
-  font-family: "display-text";
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.options-container:hover,
-.options-container:hover a {
-  color: #039874;
-}
-
 // Switcher
 
 .nav-switcher {
@@ -127,17 +114,17 @@
     cursor: pointer;
   }
 
-  .slider-item a {
-    color: #adbac7;
-    font-family: "display-text-medium";
-    font-size: 1.2em;
-    cursor: pointer;
-    line-height: 1.2;
-  }
+  // .slider-item a {
+  //   color: #adbac7;
+  //   font-family: "display-text-medium";
+  //   font-size: 1.2em;
+  //   cursor: pointer;
+  //   line-height: 1.2;
+  // }
 
-  .slider-item a:hover {
-    color: #539bf5;
-  }
+  // .slider-item a:hover {
+  //   color: #539bf5;
+  // }
 }
 
 // Small - Medium devices
@@ -180,15 +167,15 @@
     cursor: pointer;
   }
 
-  .slider-item a {
-    color: #adbac7;
-    font-family: "display-text-medium";
-    font-size: 1.2em;
-    cursor: pointer;
-    line-height: 1.2;
-  }
+  // .slider-item a {
+  //   color: #adbac7;
+  //   font-family: "display-text-medium";
+  //   font-size: 1.2em;
+  //   cursor: pointer;
+  //   line-height: 1.2;
+  // }
 
-  .slider-item a:hover {
-    color: #539bf5;
-  }
+  // .slider-item a:hover {
+  //   color: #539bf5;
+  // }
 }
