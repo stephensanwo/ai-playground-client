@@ -44,7 +44,7 @@ const Navbar = ({ isNavOpen, setIsNavOpen }) => {
 
           <div className="nav-actions">
             <div className="nav-action-1">
-              <Options data={{ name: "Launch", link: "/" }} />
+              <Options data={{ name: "Tools", link: "/navigation" }} />
             </div>
             <div className="nav-action-2">
               <Options data={{ name: "Github", link: "/" }} />
@@ -56,11 +56,11 @@ const Navbar = ({ isNavOpen, setIsNavOpen }) => {
           <div className="nav-switcher">
             <motion.div onClick={handleClick}>
               {isNavOpen === "open" ? (
-                <Close24 style={{ color: "#ffffff" }} />
+                <Close24 style={{ color: "#039874" }} />
               ) : isNavOpen === "closed" ? (
-                <Menu24 style={{ color: "#ffffff" }} />
+                <Menu24 style={{ color: "#039874" }} />
               ) : (
-                <Menu24 style={{ color: "#ffffff" }} />
+                <Menu24 style={{ color: "#039874" }} />
               )}
             </motion.div>
           </div>
@@ -83,12 +83,15 @@ const Navbar = ({ isNavOpen, setIsNavOpen }) => {
                 exit={{ display: "none", speed: "1000ms" }}
                 className="slider-item"
               >
-                <div style={{ display: "flex", alignItems: "center" }}>
-                  <a>Blog</a>
+                <div
+                  style={{ display: "flex", alignItems: "center" }}
+                  onClick={handleClick}
+                >
+                  <Link to="/navigation">Tools</Link>
                 </div>
 
                 <div className="see-all-container">
-                  <ArrowRight16 fill="#539bf5" />
+                  <ArrowRight16 fill="#039874" />
                 </div>
               </motion.div>
               <motion.div
@@ -98,11 +101,14 @@ const Navbar = ({ isNavOpen, setIsNavOpen }) => {
                 exit={{ display: "none", speed: "10000ms" }}
                 className="slider-item"
               >
-                <div style={{ display: "flex", alignItems: "center" }}>
-                  <a>Apps</a>
+                <div
+                  style={{ display: "flex", alignItems: "center" }}
+                  onClick={handleClick}
+                >
+                  <a>Github</a>
                 </div>
                 <div className="see-all-container">
-                  <ArrowRight16 fill="#539bf5" />
+                  <ArrowRight16 fill="#039874" />
                 </div>
               </motion.div>
               <motion.div
@@ -112,12 +118,15 @@ const Navbar = ({ isNavOpen, setIsNavOpen }) => {
                 exit={{ display: "none", speed: "10000ms" }}
                 className="slider-item"
               >
-                <div style={{ display: "flex", alignItems: "center" }}>
-                  <a>Github</a>
+                <div
+                  style={{ display: "flex", alignItems: "center" }}
+                  onClick={handleClick}
+                >
+                  <a>Developer</a>
                 </div>
 
                 <div className="see-all-container">
-                  <ArrowRight16 fill="#539bf5" />
+                  <ArrowRight16 fill="#039874" />
                 </div>
               </motion.div>
             </div>

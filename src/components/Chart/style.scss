@@ -1,0 +1,37 @@
+// .bx--cc--chart-svg {
+//   background-color: blue;
+// }
+.bx--chart-holder {
+  width: 100%;
+}
+
+.bx--modal-header .bx--modal-header__label {
+  display: none;
+}
+
+.bx--modal-header .bx--modal-header__heading {
+  color: #039874;
+  font-family: "display-text-semibold";
+}
+
+.bx--modal-header {
+  width: 90%;
+  margin: auto;
+  padding: 0;
+}
+
+.bx--modal-content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bx--modal-footer {
+  width: 40%;
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+.bx--chart-holder .bx--modal-footer .bx--btn {
+  background-color: #039874;
+}

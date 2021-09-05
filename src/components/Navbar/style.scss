@@ -75,11 +75,16 @@
   display: none;
 }
 
+// Media Queries
+
+// Small Mobile devices
 @media (min-width: 0px) and (max-width: 599px) {
-  .app-nav {
-    padding-left: 7.5%;
-    padding-right: 7.5%;
+  .app-nav-container {
+    width: 85%;
     justify-content: space-between;
+  }
+
+  .app-nav {
     cursor: pointer;
   }
   .app-nav .nav-actions {
@@ -96,7 +101,8 @@
     position: fixed;
     height: 100vh;
     width: 100vw;
-    background-color: #1e2329;
+    background-color: #ffffff;
+    z-index: 10000;
   }
 
   .slider-menu-container {
@@ -114,24 +120,26 @@
     cursor: pointer;
   }
 
-  // .slider-item a {
-  //   color: #adbac7;
-  //   font-family: "display-text-medium";
-  //   font-size: 1.2em;
-  //   cursor: pointer;
-  //   line-height: 1.2;
-  // }
+  .slider-item a {
+    color: #039874;
+    font-family: "display-text-medium";
+    font-size: 1.2em;
+    cursor: pointer;
+    line-height: 1.2;
+  }
 
-  // .slider-item a:hover {
-  //   color: #539bf5;
-  // }
+  .slider-item a:hover {
+    color: #adbac7;
+  }
 }
 
 // Small - Medium devices
 @media (min-width: 600px) and (max-width: 634px) {
+  .app-nav-container {
+    width: 85%;
+    justify-content: space-between;
+  }
   .app-nav {
-    padding-left: 7.5%;
-    padding-right: 7.5%;
     justify-content: space-between;
     cursor: pointer;
   }
@@ -167,15 +175,50 @@
     cursor: pointer;
   }
 
-  // .slider-item a {
-  //   color: #adbac7;
-  //   font-family: "display-text-medium";
-  //   font-size: 1.2em;
-  //   cursor: pointer;
-  //   line-height: 1.2;
-  // }
+  .slider-item a {
+    color: #adbac7;
+    font-family: "display-text-medium";
+    font-size: 1.2em;
+    cursor: pointer;
+    line-height: 1.2;
+  }
 
-  // .slider-item a:hover {
-  //   color: #539bf5;
-  // }
+  .slider-item a:hover {
+    color: #539bf5;
+  }
+}
+
+// Small - Medium devices
+@media (min-width: 635px) and (max-width: 819px) {
+  .app-nav-container {
+    width: 85%;
+  }
+}
+
+// Big phones and Small Tablets
+@media (min-width: 820px) and (max-width: 944px) {
+  .app-nav-container {
+    width: 85%;
+  }
+}
+
+// Tablets  and small screens
+@media (min-width: 945px) and (max-width: 1199px) {
+  .app-nav-container {
+    width: 85%;
+  }
+}
+
+// Tablets Landscape and Medium  Screens
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .app-nav-container {
+    width: 85%;
+  }
+}
+
+// Large - Extra Large Screens
+@media (min-width: 1441px) and (max-width: 1920px) {
+  .app-nav-container {
+    width: 75%;
+  }
 }

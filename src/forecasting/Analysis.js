@@ -1,15 +1,16 @@
 import React, { useState } from "react";
-import { useRouteMatch } from "react-router-dom";
 import "./style.scss";
 import Breadcrumbs from "../components/Breadcrumbs";
 import Progress from "../components/Progress";
 import Input from "../components/Input";
 import Uploader from "../components/Uploader";
 import { Information16 } from "@carbon/icons-react";
-import DataGuidance from "./DataGuidance";
-import Button from "../components/Button";
 
-const Upload = () => {
+import Button from "../components/Button";
+import AnalysisGuidance from "./AnalysisGuidance";
+import Table from "../components/Table";
+
+const Analysis = () => {
   const [slider, setSlider] = useState(true);
   const handleSideNav = () => {
     if (slider === false) {
@@ -26,7 +27,7 @@ const Upload = () => {
           data={[
             { title: "Home", link: "/navigation" },
             { title: "Forecasting", link: "/forecasting" },
-            { title: "Data Upload", link: "/forecasting/upload" },
+            { title: "Analysis", link: "/forecasting/analysis" },
           ]}
         />
         <div className="header">
@@ -34,7 +35,7 @@ const Upload = () => {
         </div>
         <div className="forecasting-content">
           <div className="forecasting-description">
-            <Progress state={1} />
+            <Progress state={2} />
             <div className="data-input">
               <small>
                 Note: Due to various data requirements, Gallium forecasting uses
@@ -43,53 +44,33 @@ const Upload = () => {
                 or you will loose your data. Please do not use Gallium for
                 sensitive data.
               </small>
-              <p
-                style={{
-                  marginTop: "2rem",
-                  marginBottom: "1rem",
-                  color: "#039874",
-                }}
-              >
-                Project Details
-              </p>
-              <Input placeholder={"Project Name"} />
-              <Input placeholder={"Project Description"} />
-              <div className="data-upload">
-                <p style={{ color: "#039874" }}>Data Upload</p>
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    gap: "0.4rem",
-                    cursor: "pointer",
-                  }}
-                  onClick={handleSideNav}
-                >
-                  <p style={{ color: "#999999" }}>Read the data guidiance</p>
-                  <Information16 fill="#999999" />
-                </div>
-              </div>
-              <Uploader />
+              <Table />
             </div>
+
             <div
               style={{
                 marginTop: "4rem",
                 display: "flex",
-                justifyContent: "flex-end",
+                justifyContent: "space-between",
               }}
             >
               <Button
-                button_title="Next"
+                button_title="Back"
+                icon="back"
+                button_link={"/forecasting/upload"}
+              />
+              <Button
+                button_title="Analyze"
                 icon="next"
-                button_link="/forecasting/analysis"
+                button_link={"/forecasting/result"}
               />
             </div>
           </div>
         </div>
       </div>
-      <DataGuidance slider={slider} handleSideNav={handleSideNav} />
+      <AnalysisGuidance slider={slider} handleSideNav={handleSideNav} />
     </div>
   );
 };
 
-export default Upload;
+export default Analysis;

@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import Upload from "./Upload";
 import Documentation from "./Documentation";
+import Analysis from "./Analysis";
+import Result from "./Result";
 
 const Forecasting = () => {
   const { path } = useRouteMatch();
@@ -29,7 +31,13 @@ const Forecasting = () => {
           <Documentation handleSideNav={handleSideNav} slider={slider} />
         </Route>
         <Route exact path="/forecasting/upload">
-          <Upload handleSideNav={handleSideNav} slider={slider} />
+          <Upload />
+        </Route>
+        <Route exact path="/forecasting/analysis">
+          <Analysis />
+        </Route>
+        <Route exact path="/forecasting/result">
+          <Result />
         </Route>
       </Switch>
     </Router>

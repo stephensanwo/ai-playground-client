@@ -26,17 +26,25 @@
 .landing-navs {
   display: flex;
   align-items: center;
-  width: 50%;
+  width: 300px;
   justify-content: space-between;
   margin-top: 2em;
   margin-bottom: 4em;
 }
 
 .landing-image {
-  width: 50%;
+  width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+// .landing-description-content {
+//   width: 60%;
+// }
+
+.landing-image img {
+  width: 500px;
 }
 
 .gallium-badge {
@@ -80,4 +88,148 @@
   justify-content: left;
   align-items: center;
   margin-bottom: 1rem;
+}
+
+// Media Queries
+
+// Small Mobile devices
+@media (min-width: 0px) and (max-width: 599px) {
+  .landing-content {
+    background-color: pink;
+    width: 85%;
+    padding-top: 5rem;
+  }
+
+  .landing-description h1 {
+    font-size: 2rem;
+  }
+
+  .landing-navs {
+    width: 280px;
+  }
+
+  .landing-description {
+    display: block;
+  }
+  .landing-image img {
+    width: 250px;
+  }
+  .landing-description {
+    gap: 4rem;
+  }
+  .landing-image {
+    margin-top: 4rem;
+    align-items: flex-start;
+    justify-content: center;
+    width: 300px;
+  }
+  .landing-categories {
+    margin-top: 8rem;
+  }
+}
+
+// Small - Medium devices
+@media (min-width: 600px) and (max-width: 634px) {
+  .landing-content {
+    background-color: purple;
+    width: 85%;
+  }
+
+  .landing-description {
+    display: block;
+  }
+  .landing-image img {
+    width: 500px;
+  }
+  .landing-description {
+    gap: 4rem;
+  }
+  .landing-image {
+    margin-top: 4rem;
+    align-items: flex-start;
+  }
+}
+
+// Small - Medium devices
+@media (min-width: 635px) and (max-width: 819px) {
+  .landing-content {
+    background-color: orange;
+    width: 85%;
+  }
+
+  .landing-description {
+    display: block;
+  }
+  .landing-image img {
+    width: 500px;
+  }
+  .landing-description {
+    gap: 4rem;
+  }
+  .landing-image {
+    margin-top: 4rem;
+    align-items: flex-start;
+  }
+}
+
+// Big phones and Small Tablets
+@media (min-width: 820px) and (max-width: 944px) {
+  .landing-content {
+    background-color: yellow;
+    width: 85%;
+  }
+  .landing-image img {
+    width: 300px;
+  }
+  .landing-description {
+    gap: 4rem;
+  }
+  .landing-image {
+    align-items: flex-start;
+  }
+}
+
+// Tablets  and small screens
+@media (min-width: 945px) and (max-width: 1199px) {
+  .landing-content {
+    background-color: green;
+    width: 85%;
+  }
+  .landing-image img {
+    width: 400px;
+  }
+  .landing-description {
+    gap: 4rem;
+  }
+  .landing-image {
+    align-items: flex-start;
+  }
+}
+
+// Tablets Landscape and Medium  Screens
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .landing-content {
+    background-color: blue;
+    width: 85%;
+  }
+  .landing-image img {
+    width: 400px;
+  }
+  .landing-description {
+    gap: 8rem;
+  }
+  .landing-image {
+    align-items: flex-start;
+  }
+}
+
+// Large - Extra Large Screens
+@media (min-width: 1441px) and (max-width: 1920px) {
+  .landing-content {
+    background-color: red;
+    width: 75%;
+  }
+  .landing-description {
+    gap: 8rem;
+  }
 }

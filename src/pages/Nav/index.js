@@ -28,13 +28,13 @@ const Nav = () => {
               <img src={forecasting} alt="" />
             </div>
           </Link>
-          <Link>
+          <Link to="/gptj-chatbot">
             <div className="nav-category">
               <div>
-                <h4>Essay Generation</h4>
+                <h4>GPT-J Chat Bot</h4>
                 <p>
-                  Give the AI model a topic, and get an essay so good, you'd
-                  think it was writen by a Professor
+                  Take the GPT-J 6b AI Model for a spin by engaging it in a
+                  conversation
                 </p>
               </div>
 

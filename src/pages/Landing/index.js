@@ -17,7 +17,7 @@ const Landing = () => {
     <div className="landing-container">
       <div className="landing-content">
         <div className="landing-description">
-          <div style={{ width: "50%" }}>
+          <div className="landing-description-content">
             <h1>No Code Platform for </h1>
             <h1 style={{ color: "#039874" }}>Open Source AI Models</h1>
             <p>
@@ -44,7 +44,7 @@ const Landing = () => {
             </div>
           </div>
           <div className="landing-image">
-            <img src={screen_image} width="500px" />
+            <img src={screen_image} />
           </div>
         </div>
         <div className="landing-categories">

@@ -8,7 +8,7 @@
 .nav-category {
   border: 1px solid #e0e0e0;
   width: 500px;
-  height: 120px;
+  min-height: 120px;
   border-radius: 10px;
   padding: 20px;
   display: flex;
@@ -27,4 +27,37 @@
 
 .nav-category p {
   font-size: 1em;
+}
+
+// Media Queries
+
+// Small Mobile devices
+@media (min-width: 0px) and (max-width: 599px) {
+  .nav-category {
+    width: 300px;
+  }
+}
+
+// Small - Medium devices
+@media (min-width: 600px) and (max-width: 634px) {
+}
+
+// Small - Medium devices
+@media (min-width: 635px) and (max-width: 819px) {
+}
+
+// Big phones and Small Tablets
+@media (min-width: 820px) and (max-width: 944px) {
+}
+
+// Tablets  and small screens
+@media (min-width: 945px) and (max-width: 1199px) {
+}
+
+// Tablets Landscape and Medium  Screens
+@media (min-width: 1200px) and (max-width: 1440px) {
+}
+
+// Large - Extra Large Screens
+@media (min-width: 1441px) and (max-width: 1820px) {
 }
