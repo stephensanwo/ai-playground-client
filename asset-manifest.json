@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gallium-app/static/css/main.bdbfd808.chunk.css",
-    "main.js": "/gallium-app/static/js/main.3a5760e1.chunk.js",
-    "main.js.map": "/gallium-app/static/js/main.3a5760e1.chunk.js.map",
+    "main.js": "/gallium-app/static/js/main.d2647efd.chunk.js",
+    "main.js.map": "/gallium-app/static/js/main.d2647efd.chunk.js.map",
     "runtime-main.js": "/gallium-app/static/js/runtime-main.893ca62e.js",
     "runtime-main.js.map": "/gallium-app/static/js/runtime-main.893ca62e.js.map",
     "static/css/2.c1e662fe.chunk.css": "/gallium-app/static/css/2.c1e662fe.chunk.css",
@@ -31,6 +31,6 @@
     "static/css/2.c1e662fe.chunk.css",
     "static/js/2.0d71db96.chunk.js",
     "static/css/main.bdbfd808.chunk.css",
-    "static/js/main.3a5760e1.chunk.js"
+    "static/js/main.d2647efd.chunk.js"
   ]
 }
