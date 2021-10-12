@@ -26,6 +26,7 @@ const ChatLaunch = (props) => {
     try {
       const token = await axios.post(`/token?name=${name}`);
       setToken(token);
+      console.log(token);
       setLoading(false);
       setError({});
       history.push({
