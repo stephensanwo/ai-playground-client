@@ -23,7 +23,6 @@ const ChatLaunch = (props) => {
 
   const CREATE_SESSION = async () => {
     setLoading(true);
-
     try {
       const token = await axios.post(`/token?name=${name}`);
       setToken(token);

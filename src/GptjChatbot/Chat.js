@@ -23,7 +23,7 @@ const Chat = (props) => {
 
     // Create WebSocket connection.
     const socket = new WebSocket(
-      `ws://192.168.0.149:8558/chat?token=${location.state.token.token}`
+      `ws://192.168.0.149:8558/chat/${location.state.token.token}?token=${location.state.token.token}`
     );
     // Connection opened
     socket.addEventListener("open", function (event) {

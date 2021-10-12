@@ -11,7 +11,7 @@ import AnalysisGuidance from "./AnalysisGuidance";
 import Table from "../components/Table";
 
 const Analysis = () => {
-  const [slider, setSlider] = useState(true);
+  const [slider, setSlider] = useState(false);
   const handleSideNav = () => {
     if (slider === false) {
       setSlider(true);

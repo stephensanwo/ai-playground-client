@@ -95,7 +95,6 @@
 // Small Mobile devices
 @media (min-width: 0px) and (max-width: 599px) {
   .landing-content {
-    background-color: pink;
     width: 85%;
     padding-top: 5rem;
   }
@@ -131,7 +130,6 @@
 // Small - Medium devices
 @media (min-width: 600px) and (max-width: 634px) {
   .landing-content {
-    background-color: purple;
     width: 85%;
   }
 
@@ -153,7 +151,6 @@
 // Small - Medium devices
 @media (min-width: 635px) and (max-width: 819px) {
   .landing-content {
-    background-color: orange;
     width: 85%;
   }
 
@@ -175,7 +172,6 @@
 // Big phones and Small Tablets
 @media (min-width: 820px) and (max-width: 944px) {
   .landing-content {
-    background-color: yellow;
     width: 85%;
   }
   .landing-image img {
@@ -192,7 +188,6 @@
 // Tablets  and small screens
 @media (min-width: 945px) and (max-width: 1199px) {
   .landing-content {
-    background-color: green;
     width: 85%;
   }
   .landing-image img {
@@ -209,7 +204,6 @@
 // Tablets Landscape and Medium  Screens
 @media (min-width: 1200px) and (max-width: 1440px) {
   .landing-content {
-    background-color: blue;
     width: 85%;
   }
   .landing-image img {
@@ -226,7 +220,6 @@
 // Large - Extra Large Screens
 @media (min-width: 1441px) and (max-width: 1920px) {
   .landing-content {
-    background-color: red;
     width: 75%;
   }
   .landing-description {

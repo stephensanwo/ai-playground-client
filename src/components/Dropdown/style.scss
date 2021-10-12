@@ -25,6 +25,15 @@
 .input-error {
   border: 1px solid red;
 }
+// input[type="text"] {
+//   /* Remove */
+//   -webkit-appearance: none;
+//   -moz-appearance: none;
+//   appearance: none;
+
+//   // /* Optional */
+//   // box-shadow: none;
+// }
 
 .text-input input::placeholder {
   font-size: 1em;

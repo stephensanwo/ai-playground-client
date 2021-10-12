@@ -3,11 +3,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.scss";
 
-const Button = ({ button_title, button_link, icon }) => {
+const Button = ({ button_title, button_link, icon, onClick }) => {
   return (
     <Link
       className={`button ${icon === "back" ? "button-back" : ""}`}
       to={button_link}
+      onClick={onClick}
     >
       <div className="button-content">
         {icon === "back" ? <ArrowLeft32 fill="#ffffff" /> : ""}

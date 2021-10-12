@@ -39,12 +39,6 @@ const Documentation = ({ slider, handleSideNav }) => {
               team.
             </p>
 
-            <h4>Uber - Ludwig</h4>
-            <p>
-              Ludwig is a toolbox that allows to train and test deep learning
-              models without the need to write code.
-            </p>
-
             <h4>Uber - Orbit</h4>
             <p>
               Orbit is a Python package for Bayesian time series forecasting and

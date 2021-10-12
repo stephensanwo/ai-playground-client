@@ -34,12 +34,15 @@
 // Small Mobile devices
 @media (min-width: 0px) and (max-width: 599px) {
   .nav-category {
-    width: 300px;
+    width: 100%;
   }
 }
 
 // Small - Medium devices
 @media (min-width: 600px) and (max-width: 634px) {
+  .nav-category {
+    width: 100%;
+  }
 }
 
 // Small - Medium devices

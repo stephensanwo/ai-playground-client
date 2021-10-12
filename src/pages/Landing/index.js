@@ -5,6 +5,7 @@ import {
   Cognitive32,
   PhraseSentiment32,
 } from "@carbon/icons-react";
+import { Link } from "react-router-dom";
 import openai from "../../assets/images/svg/openai.svg";
 import ludwig from "../../assets/images/svg/ludwig.svg";
 import prophet from "../../assets/images/svg/prophet.svg";
@@ -86,6 +87,19 @@ const Landing = () => {
           </div>
         </div>
       </div>
+      <Link
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginBottom: "5rem",
+          marginTop: "5rem",
+        }}
+      >
+        <p style={{ fontSize: "0.8rem", color: "#039874" }}>
+          Developed by Stephen Sanwo
+        </p>{" "}
+      </Link>
     </div>
   );
 };

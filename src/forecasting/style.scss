@@ -41,8 +41,54 @@
   display: flex;
   gap: 2rem;
   align-items: center;
+  margin-top: 2rem;
 }
 
 .data-upload p {
   margin: 0;
+}
+
+// Media Queries
+
+// Small Mobile devices
+@media (min-width: 0px) and (max-width: 599px) {
+  .forecasting-description {
+    width: 100%;
+  }
+
+  .forecasting-link {
+    width: 100%;
+    gap: 0.5rem;
+  }
+}
+
+// Small - Medium devices
+@media (min-width: 600px) and (max-width: 634px) {
+  .forecasting-description {
+    width: 100%;
+  }
+  .forecasting-link {
+    width: 100%;
+    gap: 0.5rem;
+  }
+}
+
+// Small - Medium devices
+@media (min-width: 635px) and (max-width: 819px) {
+}
+
+// Big phones and Small Tablets
+@media (min-width: 820px) and (max-width: 944px) {
+}
+
+// Tablets  and small screens
+@media (min-width: 945px) and (max-width: 1199px) {
+}
+
+// Tablets Landscape and Medium  Screens
+@media (min-width: 1200px) and (max-width: 1440px) {
+}
+
+// Large - Extra Large Screens
+@media (min-width: 1441px) and (max-width: 1920px) {
 }

@@ -12,7 +12,7 @@ import Table from "../components/Table";
 import Chart from "../components/Chart";
 
 const Result = () => {
-  const [slider, setSlider] = useState(true);
+  const [slider, setSlider] = useState(false);
   const handleSideNav = () => {
     if (slider === false) {
       setSlider(true);

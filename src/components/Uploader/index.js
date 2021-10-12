@@ -2,10 +2,7 @@ import React, { Fragment, useState } from "react";
 import { CloudUpload } from "@carbon/pictograms-react";
 import "./style.scss";
 
-const Uploader = () => {
-  const [fileName, setFileName] = useState("");
-  const [file, setFile] = useState("");
-
+const Uploader = ({ file, fileName, setFile, setFileName }) => {
   const onChange = (e) => {
     setFile(e.target.files[0]);
     setFileName(e.target.files[0].name);
@@ -25,6 +22,7 @@ const Uploader = () => {
               style={{
                 textAlign: "center",
                 color: "#999999",
+                lineHeight: 1.2,
               }}
             >
               Click to upload or drag an drop here

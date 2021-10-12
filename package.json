@@ -1,4 +1,5 @@
 {
+  "homepage": "http://stephensanwo.github.io/gallium-client",
   "name": "gallium-client",
   "version": "0.1.0",
   "private": true,
@@ -15,10 +16,12 @@
     "carbon-components-react": "^7.39.0",
     "carbon-icons": "^7.0.7",
     "d3": "^7.0.0",
+    "elkjs": "^0.7.1",
     "framer-motion": "^4.1.17",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-query": "^3.26.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "sass": "^1.35.2",
@@ -26,6 +29,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "PORT=3019 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

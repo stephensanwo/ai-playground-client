@@ -23,7 +23,6 @@ const Forecasting = () => {
     }
   };
 
-  console.log(path);
   return (
     <Router>
       <Switch>
