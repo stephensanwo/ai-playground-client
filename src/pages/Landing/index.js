@@ -19,16 +19,21 @@ const Landing = () => {
       <div className="landing-content">
         <div className="landing-description">
           <div className="landing-description-content">
-            <h1>No Code Platform for </h1>
-            <h1 style={{ color: "#039874" }}>Open Source AI Models</h1>
+            <h1>No Code</h1>
+            <h1 style={{ color: "#039874" }}>AI Playground</h1>
             <p>
               From predictive analytics to natural language understanding,
-              Non-technical users across several functions can now leverage
-              powerful open source AI models without learning to code.
+              Gallium is a playground for Non-technical users across several
+              functions to explore powerful open source AI models without
+              learning to code.
+            </p>
+            <p style={{ marginTop: "2rem" }}>
+              The tools deployed on Gallium are built by Stephen Sanwo, mostly
+              with publicly available open source models. Check out my blog at
+              stephensanwo.dev/blog and follow me on twitter @stephensanwo
             </p>
             <div className="landing-navs">
-              <Button button_title="Launch Gallium" button_link="/navigation" />
-              <a>Documentation</a>
+              <Button button_title="Explore" button_link="/navigation" />
             </div>
             <div className="logo-container">
               <img src={openai} width="80px" />
@@ -44,47 +49,6 @@ const Landing = () => {
               </h4>
             </div>
           </div>
-          <div className="landing-image">
-            <img src={screen_image} />
-          </div>
-        </div>
-        <div className="landing-categories">
-          <div className="landing-category">
-            <div className="category-header">
-              <ChartLineSmooth32 fill="#039874" />
-              <h4>Forecasting Analytics</h4>
-            </div>
-
-            <p>
-              From predicting user growth to revenue forecasts, Non-technical
-              users across several functions can now leverage the powerful
-              facebook prophet analytics
-            </p>
-          </div>
-          <div className="landing-category">
-            <div className="category-header">
-              <Cognitive32 fill="#039874" />
-              <h4>Natural Language Processing</h4>
-            </div>
-
-            <p>
-              From predicting user growth to revenue forecasts, Non-technical
-              users across several functions can now leverage the powerful
-              facebook prophet analytics
-            </p>
-          </div>
-          <div className="landing-category">
-            <div className="category-header">
-              <PhraseSentiment32 fill="#039874" />
-              <h4>Sentiment Analytics</h4>
-            </div>
-
-            <p>
-              From predicting user growth to revenue forecasts, Non-technical
-              users across several functions can now leverage the powerful
-              facebook prophet analytics
-            </p>
-          </div>
         </div>
       </div>
       <Link
@@ -93,13 +57,9 @@ const Landing = () => {
           justifyContent: "center",
           alignItems: "center",
           marginBottom: "5rem",
-          marginTop: "5rem",
+          marginTop: "8rem",
         }}
-      >
-        <p style={{ fontSize: "0.8rem", color: "#039874" }}>
-          Developed by Stephen Sanwo
-        </p>{" "}
-      </Link>
+      ></Link>
     </div>
   );
 };

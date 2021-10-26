@@ -44,7 +44,7 @@ const Navbar = ({ isNavOpen, setIsNavOpen }) => {
 
           <div className="nav-actions">
             <div className="nav-action-1">
-              <Options data={{ name: "Tools", link: "/navigation" }} />
+              <Options data={{ name: "Explore", link: "/navigation" }} />
             </div>
             <div className="nav-action-2">
               <Options data={{ name: "Github", link: "/" }} />
