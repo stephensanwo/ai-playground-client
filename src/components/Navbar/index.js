@@ -38,7 +38,7 @@ const Navbar = ({ isNavOpen, setIsNavOpen }) => {
                 width="32px"
                 style={{ marginRight: "1rem" }}
               />
-              <a style={{ color: "#039874" }}>Gallium</a>
+              <a style={{ color: "#039874" }}>AI Playground</a>
             </Link>
           </div>
 
