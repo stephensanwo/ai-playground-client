@@ -14,11 +14,11 @@ const Landing = () => {
           <div className="landing-description-content">
             <h1>Artificial Intelligence</h1>
             <h1 style={{ color: "#039874" }}>Playground</h1>
-            <p>
+            <p style={{ marginTop: "2rem" }}>
               AI Playground is where I test stuff I build with open source and
               custom Machine Learning and Deep Learning models
             </p>
-            <p style={{ marginTop: "2rem" }}>
+            <p style={{ marginTop: "1rem" }}>
               The tools deployed on AI Playground are built by Stephen Sanwo,
               mostly with publicly available open source models. Check out my
               blog at stephensanwo.dev/blog and follow me on twitter
@@ -33,8 +33,8 @@ const Landing = () => {
               <img src={prophet} width="80px" />
               <h4
                 style={{
-                  fontFamily: "display-text-bold",
                   fontSize: "1rem",
+                  fontWeight: 800,
                 }}
               >
                 GPT-3

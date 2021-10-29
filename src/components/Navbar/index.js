@@ -44,13 +44,31 @@ const Navbar = ({ isNavOpen, setIsNavOpen }) => {
 
           <div className="nav-actions">
             <div className="nav-action-1">
-              <Options data={{ name: "Explore", link: "/navigation" }} />
+              <Options
+                data={{
+                  name: "Explore",
+                  link: "/navigation",
+                  type: "internal",
+                }}
+              />
             </div>
             <div className="nav-action-2">
-              <Options data={{ name: "Github", link: "/" }} />
+              <Options
+                data={{
+                  name: "Github",
+                  link: "https://github.com/stephensanwo",
+                  type: "external",
+                }}
+              />
             </div>
             <div className="nav-action-3">
-              <Options data={{ name: "Developer", link: "/" }} />
+              <Options
+                data={{
+                  name: "Developer",
+                  link: "https://www.stephensanwo.dev",
+                  type: "external",
+                }}
+              />
             </div>
           </div>
           <div className="nav-switcher">
@@ -105,7 +123,13 @@ const Navbar = ({ isNavOpen, setIsNavOpen }) => {
                   style={{ display: "flex", alignItems: "center" }}
                   onClick={handleClick}
                 >
-                  <a>Github</a>
+                  <a
+                    href="https://github.com/stephensanwo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Github
+                  </a>
                 </div>
                 <div className="see-all-container">
                   <ArrowRight16 fill="#039874" />
@@ -122,7 +146,13 @@ const Navbar = ({ isNavOpen, setIsNavOpen }) => {
                   style={{ display: "flex", alignItems: "center" }}
                   onClick={handleClick}
                 >
-                  <a>Developer</a>
+                  <a
+                    href="https://www.stephensanwo.dev"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Developer
+                  </a>
                 </div>
 
                 <div className="see-all-container">

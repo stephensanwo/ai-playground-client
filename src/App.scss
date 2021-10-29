@@ -1,47 +1,9 @@
-// Fonts
-@font-face {
-  font-family: "display-text";
-  src: url("./assets/fonts/sf/SF-Pro-Text-Regular.otf");
-}
-@font-face {
-  font-family: "display-text-light";
-  src: url("./assets/fonts/sf/SF-Pro-Text-Light.otf");
-}
-@font-face {
-  font-family: "display-text-extralight";
-  src: url("./assets/fonts/sf/SF-Pro-Text-Thin.otf");
-}
-@font-face {
-  font-family: "display-text-semibold";
-  src: url("./assets/fonts/sf/SF-Pro-Text-Semibold.otf");
-}
-@font-face {
-  font-family: "display-text-bold";
-  src: url("./assets/fonts/sf/SF-Pro-Text-Bold.otf");
-}
-@font-face {
-  font-family: "display-text-medium";
-  src: url("./assets/fonts/sf/SF-Pro-Text-Medium.otf");
-}
-
-@font-face {
-  font-family: "display-text-medium-italic";
-  src: url("./assets/fonts/sf/SF-Pro-Text-MediumItalic.otf");
-}
-@font-face {
-  font-family: "display-text-code";
-  src: url("./assets/fonts/sf/SF-Mono-Regular.otf");
-}
-@font-face {
-  font-family: "display-text-code-light";
-  src: url("./assets/fonts/sf/SF-Mono-Light.otf");
-}
-
 // Text
 h1 {
   letter-spacing: normal;
-  font-family: "display-text", "Helvetica Neue", "Helvetica", "Arial",
-    "sans-serif";
+  font-family: "IBM Plex Sans", sans-serif, "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
+  font-weight: 400;
   color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: auto;
@@ -53,8 +15,9 @@ h1 {
 
 h2 {
   letter-spacing: normal;
-  font-family: "display-text", "Helvetica Neue", "Helvetica", "Arial",
-    "sans-serif";
+  font-family: "IBM Plex Sans", sans-serif, "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
+  font-weight: 400;
   font-size: 2.5rem;
   color: #039874;
   -webkit-font-smoothing: antialiased;
@@ -67,8 +30,9 @@ h2 {
 
 h4 {
   letter-spacing: normal;
-  font-family: "display-text-semibold", "Helvetica Neue", "Helvetica", "Arial",
-    "sans-serif";
+  font-family: "IBM Plex Sans", sans-serif, "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
+  font-weight: 600;
   color: black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: auto;
@@ -82,8 +46,9 @@ h4 {
 p {
   font-size: 0.9em;
   letter-spacing: normal;
-  font-family: "display-text", "Helvetica Neue", "Helvetica", "Arial",
-    "sans-serif";
+  font-family: "IBM Plex Sans", sans-serif, "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
+  font-weight: 400;
   color: black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: auto;
@@ -95,8 +60,8 @@ p {
 a {
   font-size: 0.9em;
   letter-spacing: normal;
-  font-family: "display-text", "Helvetica Neue", "Helvetica", "Arial",
-    "sans-serif";
+  font-family: "IBM Plex Sans", sans-serif, "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
   color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: auto;
@@ -116,8 +81,8 @@ a:hover {
 small {
   font-size: 0.8em;
   letter-spacing: normal;
-  font-family: "display-text-light", "Helvetica Neue", "Helvetica", "Arial",
-    "sans-serif";
+  font-family: "IBM Plex Sans", sans-serif, "Helvetica Neue", "Helvetica",
+    "Arial", "sans-serif";
   color: #999999;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: auto;

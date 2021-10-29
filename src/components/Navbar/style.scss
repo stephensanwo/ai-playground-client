@@ -4,7 +4,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  // border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
   background-color: #ffffff;
   z-index: 1000;
 }
@@ -41,7 +41,7 @@
 .app-nav .nav-tabs a {
   color: #000000;
   font-size: 1em;
-  font-family: "display-text-bold";
+  font-weight: 500;
   cursor: pointer;
   text-decoration: none;
 }
@@ -63,6 +63,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 // Switcher
