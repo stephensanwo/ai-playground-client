@@ -23,7 +23,7 @@ const Chat = (props) => {
 
     // Create WebSocket connection.
     const socket = new WebSocket(
-      `wss://192.168.0.149:8558/chat/${location.state.token.token}?token=${location.state.token.token}`
+      `ws://192.168.0.149:2304/api/v1/playground/chat/${location.state.token.token}?token=${location.state.token.token}`
     );
     // Connection opened
     socket.addEventListener("open", function (event) {
@@ -59,8 +59,9 @@ const Chat = (props) => {
       <div className="content">
         <Breadcrumbs
           data={[
-            { title: "Home", link: "/navigation" },
-            { title: "Chat", link: "/gpt-chatbot/chat" },
+            { title: "Explore", link: "/navigation" },
+            { title: "GPT-J Chat Bot", link: "/gptj-chatbot" },
+            { title: "Chat", link: "" },
           ]}
         />
         <div className="header">

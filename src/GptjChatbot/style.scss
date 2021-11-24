@@ -7,11 +7,12 @@
 }
 
 .chat-description p {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .chat-description h4 {
   margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
 }
 
 .chat-link {
@@ -28,7 +29,8 @@
 }
 
 .start-chat {
-  width: 450px;
+  width: 100%;
+  max-width: 600px;
   height: 140px;
   border: 1px solid #e0e0e0;
   border-radius: 20px;
@@ -105,6 +107,12 @@
   margin-top: 2rem;
   border: 1px solid #e0e0e0;
   border-radius: 20px;
+}
+
+.chat-content a {
+  text-decoration: underline;
+  color: #039874;
+  font-size: 1em;
 }
 
 .refresh-link {
@@ -207,6 +215,11 @@
   color: #000000;
 }
 
+.slider-content a {
+  text-decoration: underline;
+  color: #039874;
+  font-size: 1em;
+}
 // Media Queries
 
 // Small Mobile devices
