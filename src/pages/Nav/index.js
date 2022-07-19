@@ -15,7 +15,20 @@ const Nav = () => {
           <h2>Welcome, what do you want to do?</h2>
         </div>
         <div className="nav-categories">
-          <Link to="/gptj-chatbot">
+          <Link to="/">
+            <div className="nav-category">
+              <div>
+                <h4>Forecasting</h4>
+                <p>
+                  Run forecasts on any data with advanced AI models like
+                  Facebook Prophet and Uber's Ludwig{" "}
+                </p>
+              </div>
+
+              <img src={forecasting} alt="" />
+            </div>
+          </Link>
+          <Link to="/">
             <div className="nav-category">
               <div>
                 <h4>GPT-J Chat Bot</h4>
