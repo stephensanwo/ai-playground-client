@@ -22,13 +22,18 @@ const ReadMore = ({ slider, handleSideNav }) => {
               About GPT-J GB
             </h4>
             <p>
-              GPT-J is the best-performing publicly available Transformer LM in
-              terms of zero-shot performance on various down-streaming tasks.
-              GPT-J allows more flexible and faster inference than Tensorflow +
-              TPU counterparts. This project required a substantially smaller
-              amount of person-hours than other large-scale model developments
-              did, which demonstrates that JAX + xmap + TPUs is the right set of
-              tools for quick development of large-scale models.
+              Eleuther AI claims GPT-J is the best-performing publicly available
+              Transformer LM in terms of zero-shot performance on various
+              down-streaming tasks. You can read more about it on their blog
+              post{" "}
+              <a
+                href="https://arankomatsuzaki.wordpress.com/2021/06/04/gpt-j/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                Here
+              </a>
             </p>
 
             <h4
@@ -38,19 +43,31 @@ const ReadMore = ({ slider, handleSideNav }) => {
                 marginBottom: "1rem",
               }}
             >
-              Model Design
+              Links
             </h4>
-            <p>
-              Model design: Our model design and hyperparameter choice closely
-              follow those of 6.7B GPT-3 with some differences. Notably, The
-              model was trained on 400B tokens from The Pile dataset with 800GB
-              text. Efficient attention (linear, local/sliding window, etc) was
-              not used for simplicity, as it would not have significantly
-              improved throughput at this scale. The dimension of each attention
-              head is set to 256, which is twice larger than that of GPT-3 of
-              comparable size. This noticeably improved the throughput with
-              minimal performance degradation.
-            </p>
+            <a
+              href="https://6b.eleuther.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Test the model in Eleuther AI's Web Demo
+            </a>
+            <br />
+            <a
+              href="http://colab.research.google.com/github/kingoflolz/mesh-transformer-jax/blob/master/colab_demo.ipynb"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Run the model in colab
+            </a>
+            <br />
+            <a
+              href="              https://github.com/kingoflolz/mesh-transformer-jax/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View on Github{" "}
+            </a>
             <div className="slider-datalist"></div>
           </div>
         </motion.div>

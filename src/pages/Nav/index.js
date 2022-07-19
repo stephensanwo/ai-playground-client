@@ -10,7 +10,7 @@ const Nav = () => {
   return (
     <div className="container">
       <div className="content">
-        <Breadcrumbs data={[{ title: "Home", link: "/navigation" }]} />
+        <Breadcrumbs data={[{ title: "Explore", link: "/navigation" }]} />
         <div className="header">
           <h2>Welcome, what do you want to do?</h2>
         </div>

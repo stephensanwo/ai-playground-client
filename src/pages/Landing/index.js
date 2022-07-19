@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import openai from "../../assets/images/svg/openai.svg";
 import ludwig from "../../assets/images/svg/ludwig.svg";
 import prophet from "../../assets/images/svg/prophet.svg";
+import huggingface from "../../assets/images/svg/huggingface_logo.svg";
 import Button from "../../components/Button";
 
 const Landing = () => {
@@ -30,7 +31,8 @@ const Landing = () => {
             <div className="logo-container">
               <img src={openai} width="80px" />
               <img src={ludwig} width="80px" />
-              <img src={prophet} width="80px" />
+              <img src={prophet} width="80px" />{" "}
+              <img src={huggingface} width="30px" />
               <h4
                 style={{
                   fontSize: "1rem",
