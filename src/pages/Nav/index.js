@@ -15,7 +15,7 @@ const Nav = () => {
           <h2>Welcome, what do you want to do?</h2>
         </div>
         <div className="nav-categories">
-          <Link to="/forecasting">
+          <Link to="/">
             <div className="nav-category">
               <div>
                 <h4>Forecasting</h4>
@@ -28,7 +28,7 @@ const Nav = () => {
               <img src={forecasting} alt="" />
             </div>
           </Link>
-          <Link to="/gptj-chatbot">
+          <Link to="/">
             <div className="nav-category">
               <div>
                 <h4>GPT-J Chat Bot</h4>

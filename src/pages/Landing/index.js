@@ -15,13 +15,13 @@ const Landing = () => {
             <h1>Artificial Intelligence</h1>
             <h1 style={{ color: "#039874" }}>Playground</h1>
             <p style={{ marginTop: "2rem" }}>
-              AI Playground is where I test stuff I build with open source and
-              custom Machine Learning and Deep Learning models
+              AI Playground is a testing platform for applications I build with
+              open source and custom Deep Learning models
             </p>
             <p style={{ marginTop: "1rem" }}>
               The tools deployed on AI Playground are built by Stephen Sanwo,
               mostly with publicly available open source models. Check out my
-              blog at stephensanwo.dev/blog and follow me on twitter
+              blog at blog.stephensanwo.dev and follow me on twitter
               @stephensanwo
             </p>
             <div className="landing-navs">
