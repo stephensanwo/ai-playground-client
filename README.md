@@ -1,4 +1,4 @@
-### Artificiail Intelligence Playground
+### Artificial Intelligence Playground
 
 https://ai.stephensanwo.dev
 
