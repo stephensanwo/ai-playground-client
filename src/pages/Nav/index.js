@@ -47,10 +47,7 @@ const Nav = () => {
               <img src={nlp} alt="" />
             </div>
           </a>
-          <a
-            href="https://hypercompose.com://github.com/stephensanwo/fullstack-ai-chatbot"
-            target="blank"
-          >
+          <a href="https://hypercompose.com" target="blank">
             <div className="nav-category">
               <div>
                 <h4>HYPERCOMPOSE (Alpha)</h4>
